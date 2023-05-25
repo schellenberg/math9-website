@@ -6,8 +6,37 @@ h1 {
     padding: 50px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 75px;
 }
 
 body {
     background-color: #E9D8A6;
+}
+
+nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    background-color: #CA6702;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #BB3E03;
 }
