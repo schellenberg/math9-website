@@ -13,6 +13,10 @@ body {
     background-color: #E9D8A6;
 }
 
+.redBackground {
+    background-color: #9B2226;
+}
+
 nav ul {
     position: absolute;
     top: 0;
